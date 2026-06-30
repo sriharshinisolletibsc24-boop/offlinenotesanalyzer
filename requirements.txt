@@ -1,0 +1,20 @@
+# Core app (required)
+streamlit>=1.35
+pandas
+openpyxl
+pillow
+pytesseract
+pdfplumber
+pypdf
+
+# Note: pytesseract requires the `tesseract` binary on your system:
+#   Ubuntu/Debian:  sudo apt install tesseract-ocr
+#   macOS:          brew install tesseract
+#   Windows:        https://github.com/UB-Mannheim/tesseract/wiki
+
+# ---- Optional: enable real local-LLM extraction mode (Settings > LLM) ----
+# llama-cpp-python
+
+# ---- Optional: enable audio/video transcription ----
+# openai-whisper
+# (also requires ffmpeg on your system PATH: sudo apt install ffmpeg)
